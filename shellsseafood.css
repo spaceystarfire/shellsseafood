@@ -1,0 +1,123 @@
+*	{box-sizing: border-box;}
+
+main	{padding: 2em;
+	line-height: 250%;}
+
+body	{background-color: #ffffcc;
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-top: 0;
+	margin-left: 2em;
+	margin-right:2em;
+	margin-top: 0;
+	color: #006666;
+	background-image: url("sand.jpg");
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 200%;}
+
+header	{background-color: #99ccff;
+	height: 150px;
+	border-bottom: 2px solid #006666;}
+
+#chowder {float: right;
+	padding: 2em;
+	margin: 2em;}
+
+h1	{font-family: Lucida Handwriting, Goudy Old Style, Palatino, Helvetica;
+	color: #006666;
+	text-align: center;
+	padding: 50px;
+	font-size: 3em;
+	font-weight: bold;}
+
+h2	{font-family: Century Gothic, Lucida Sans Typewriter;
+	text-align: center;
+	font-size: 2em;}
+
+h3	{font-family: Goudy Old Style, Palatino, Helvetica;
+	font-size: 2em;
+	text-align: center;}
+	
+table	{width: 60%;
+	margin: auto;
+	border: 1px solid #3f2860;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	text-align: center;}
+
+td, th	{padding: 5px;
+	border: 1px solid #3f2860;}
+
+tr:nth-of-type(even) {background-color: #9bc1c2;}
+
+caption	{margin: 1em;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Lucida Handwriting, Goudy Old Style, Palatino, Helvetica;}
+
+
+main	{margin-left: 170px;
+	padding-top: 1em;
+	padding-right: 2em;
+	display: block;}
+
+header, nav, main, footer {display: block;}
+
+nav	{float: left;
+	width: 250px;
+	font-weight: bold;
+	padding: 1em;}
+
+nav ul	{list-style-type: none; 
+	margin-left: none; 
+	padding-left: none;}
+
+nav a 	{text-decoration: none;
+	padding: 1em;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1em;
+	border: 3px outset #cccccc;}
+
+nav a:link	{color: #3F2860;}
+nav a:visited	{color: #497777;}
+nav a:hover	{color: #A26100; border: 3px inset #333333;}
+
+a	{text-decoration: none;}
+
+footer 	{background-color: #99ccff;
+	border-top: 2px solid #006666;
+	font-size: 0.75em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;}
+
+#wrapper {background-color: #f5f5f5;
+	min-width: 1200px;
+	max-width: 1480px;
+	margin-right: auto;
+	margin-left: auto;}
+
+label	{float: left;
+	display: block;
+	clear: left;
+	font-weight: bold;
+	text-align: right;
+	width: 100px;
+	padding-right: 10px;
+	margin: 10px;}
+
+input	{display: block;
+	margin-top: 10px;}
+
+textarea {display: block;
+	margin-bottom: 2em;}
+
+#mySubmit {margin-left: 12em;}
+
+form	{padding: 3em;
+	background-color: #99ccff;
+	width: 40em;} 
+
+dl	{text-align: center;}
